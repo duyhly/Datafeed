@@ -1,13 +1,8 @@
 <?php 
 
-    class BaseProcessor
+    class BaseService
     {
-        protected $reportMonth;
-        
-        public function setReportMonth($reportMonth)
-        {
-            $this->reportMonth = $reportMonth;
-        } 
+
     }
 
 ?>

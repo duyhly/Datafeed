@@ -10,12 +10,10 @@
 	*/
 
     require_once (__DIR__.'./../Config/Constants.php');
-    require_once (__DIR__.'./../Utilities/Helpers.php');
+    require_once (__DIR__.'./../Helpers/Helpers.php');
 
 
     class BaseController {
-        
-		protected $_mode = DEFAULT_MODE;
 
         function __construct() 
         {

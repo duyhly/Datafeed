@@ -109,11 +109,7 @@ Next
 'f.Writeline("[END OF FILE]")
 
 ' Show some output
-Response.Write("<br>Click <a href=" + DQuote + "http://")
 Response.Write(CONFIGURATION_DOMAIN_NAME + CONFIGURATION_NEW_DATAFEED_PATH)
-Response.Write(DQuote + ">" + "here" + "</a>")
-Response.Write(" to download the file.")
-Response.Write("<br>URL: " + CONFIGURATION_DOMAIN_NAME + CONFIGURATION_NEW_DATAFEED_PATH)
 f.close 
 
 set f = nothing 

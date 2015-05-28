@@ -201,7 +201,7 @@ Class OrderTrackingCollector
 			Exit Function
 		 
 		End If
-		    Response.Write("Total Record: " & ProductNode.length)
+		    'Response.Write("Total Record: " & ProductNode.length)
 			
 			Set ProductList = new ProductList
 			
